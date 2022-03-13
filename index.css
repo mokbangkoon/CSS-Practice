@@ -10,12 +10,6 @@
     background-color: black;
     width:80%
 }
-ol {
-    color: blue
-}
-ul {
-    color : red
-}
 h1 {
     margin: 2rem;
     background-color: black;
@@ -36,11 +30,15 @@ h1:active {
     color: red;
 }
 button {
-    width: 50%;
+    width: 20%;
     height: 50px;
-    border-radius: 10%;
-    
+    border-radius: 30%;
 
+
+}
+button:hover {
+    color:blueviolet;
+    background-color: darkgoldenrod;
 }
 button:active {
     color:blue;
