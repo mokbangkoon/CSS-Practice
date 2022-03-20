@@ -4,6 +4,12 @@
 .title {
     color : red;
     background-color: black;
+   
+}
+body {
+    margin: 0;
+    padding: 0;
+   
 }
 .subtitle {
     color: aqua;
@@ -21,6 +27,8 @@ h1 {
     font-size: 2rem;
     width : 80%;
     height : 5rem;
+    
+    
 }
 h1:active {
     background-color: aquamarine;
@@ -46,3 +54,17 @@ button:active {
     box-shadow: none;
     transform:translateY(4px);
 }
+form >nav{
+   background-color: red;
+   flex : 2 0  auto;
+}
+form {
+    display:flex;
+}form div{
+    background-color: blue;
+    flex : 1 0  auto;
+ }
+ div {
+    background-color: aqua;
+    
+ }
